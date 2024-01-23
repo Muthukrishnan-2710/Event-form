@@ -1,0 +1,58 @@
+body{
+  background-color: #303438;
+}
+.form-container {
+  background-color: #212529; /* Dark background color */
+  border: 10px solid #303438; /* Square border with white color */
+  border-radius: 50px; /* Rounded corners for the square border */
+  padding: 40px;
+  margin: 40px auto;
+  width: 550px; /* adjust width as needed */
+}
+
+h2 {
+  color: #fff; /* White text for heading */
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  color: #ccc; /* Light gray text for info */
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  color: black; /* White text for labels */
+  font-size: 20px;
+  display: block;
+  margin-bottom: 18px;
+}
+
+input {
+  background-color: #303438; /* Darker shade for input fields */
+  border: 1px solid #fff; /* White border for input fields */
+  border-radius: 3px;
+  padding: 10px;
+  width: 100%;
+  color: #fff; /* White text for input values */
+  font-size: 16px;
+}
+
+button {
+  background-color: darkorange; /* Green color for submit button */
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: red; /* White text for button */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.event-info img {
+  width: 100%;
+
+  border-radius: 350px; /* Match border radius of form container */
+}
